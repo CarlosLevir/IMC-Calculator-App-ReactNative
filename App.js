@@ -36,12 +36,12 @@ export default class App extends React.Component {
       else if(imc < 30)
         descricao = "Sobrepeso";
       else if(imc < 35)
-        descricao = "Obresidade Grau II";
+        descricao = "Obesidade Grau I";
       else if(imc < 40){
-        descricao = "Obresidade Grau II";
+        descricao = "Obesidade Grau II";
       }
       else{
-        descricao = "Obresidade Grau III";
+        descricao = "Obesidade Grau III";
       }
 
       this.setState({
